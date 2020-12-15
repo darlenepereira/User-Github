@@ -1,0 +1,284 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./thumb-1920-985381.jpg);
+    background-size: 4.6rem;
+}
+
+:root {
+    --title-color: #7D17FF;
+    --subTitle-color: #B2B2B3;
+    --background-input:#07060A;
+    --background-button: #0D0A16;
+    --background-div: #000001;
+}
+
+:root{
+    font-size: 16px;
+}
+
+/* MOBILE FIRST */
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    color: var(--title-color);
+    font-family: 'Oxygen';
+    font-weight: 700;
+    padding-top: 2rem;
+    font-size: clamp(1.8rem, 4vw, 8rem);
+}   
+
+
+
+form{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.subTitle{
+   text-align: center;
+   font-size: clamp(.8rem, 1vw, 3rem);
+   font-family:'Poppins';
+   font-weight: 400;
+   /* color: var(--subTitle-color); */
+   color: rgb(119, 114, 133);
+}
+
+.inputs{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1rem;
+   margin-top:.5rem;
+}    
+#nameInput{
+    width: 22rem;
+    height: 3rem;
+    outline: none;
+    border: none;
+    color: var(--subTitle-color);
+    background: var(--background-input);
+    border-radius: 0.375rem;
+    padding-left: 1rem;
+}
+
+
+.button-input {
+    width: 22rem;
+    height: 2rem;
+    font-size: .8rem;
+    font-weight: 600;
+    border-radius: 0.375rem;
+    border: .14rem  solid #412466 ;
+    outline: none;
+    color: white;
+    background-color: initial;
+    transition: 1s all ease;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+   
+
+#div-user{
+    width: 22rem;
+    height: 18rem;
+    margin-top: 3rem;
+ }
+
+ 
+#user {
+    height: 18rem;
+    border-radius: .75rem;
+    background-color: var(--background-input);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: .1rem .1rem .4rem rgb(15, 15, 15);
+    position: relative;
+
+}
+
+.img {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 0.75rem;
+    position: absolute;
+    bottom: 10rem;
+}
+
+.elements-js{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.list-js{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 7rem;
+    
+}
+
+.h2-js{
+    color: var(--title-color);
+    font-size: clamp(1.2rem, 1.2vw, 3rem);
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: center;
+}
+
+.location-js,
+.html_url-js,
+.login,
+#link-page {
+    color: rgb(129, 129, 129);
+    font-size: clamp(1rem, 1vw, 3rem);
+    font-family: 'Roboto';
+    font-weight: 300;
+    text-decoration: none;
+    padding-top: .9rem;
+}
+
+.html_url-js:hover {
+    color: var(--subTitle-color);
+}
+
+.project{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: clamp(.6rem, 1vw, 3rem);
+    color: rgb(77, 75, 75);
+    margin-top: 1rem;
+}
+
+
+.h1-js {
+    font-family: 'Helvetica';
+    font-size: clamp(1rem, 2vw, 4rem);
+    color: #ff3300;
+    text-align: center;
+    
+}  
+
+/* MEDIA WEB */
+
+@media (min-width: 1024px) {
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.7rem;
+        margin-bottom: 2rem;
+    }
+
+    .subTitle {
+        width: 38rem;
+        text-align: left;
+        padding-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .inputs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    #nameInput {
+        width: 23rem;
+        height: 3.5rem;
+        margin-right: 1rem;
+        text-align: left;
+    }
+
+    .button-input {
+        width: 12rem;
+        height: 3.5rem;
+        margin: 0;
+    }
+
+    .button-input:hover{
+        background: #412466 ;
+        transition: 1s all ease;
+      }
+
+    #div-user {
+        width: 36rem;
+        height: 15rem;
+        margin-top: 4rem;
+
+    }
+
+    #user {
+        width: 36rem;
+        height: 14rem;
+        position: absolute;      
+    }
+
+    .elements-js{
+        margin: 0;
+        padding:0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .list-js{
+        list-style: none;
+        text-align: left;
+        margin-top: 1rem; 
+        padding: 0;
+    }
+
+    .img{
+        width: 15rem;
+        height: 16em;
+        border-radius: 0.75rem;
+        margin-left: 1rem; 
+        position: relative;
+        top: 0;
+        bottom: 0;
+    }
+
+    .h2-js{
+        width: 12rem;
+        margin-left: 2rem;
+        padding-bottom: 1rem;
+        text-align: left;
+    }
+
+    .location-js,
+    .html_url-js,
+    .login,
+    #link-page {
+        text-align: left;
+        padding: 0 0 .6rem 2rem;
+        text-decoration: none;
+    }
+
+    .project{
+        margin-top: 2.8rem;
+    }
+
+}
