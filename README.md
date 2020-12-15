@@ -36,7 +36,7 @@
 ```bash
 
 # Clonar o repositório
-$ git clone git://github.com/darlenepereira/@github
+$ git clone https://github.com/darlenepereira/User-Github.git
 
 # Entrar no diretório
 $ cd @github
