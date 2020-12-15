@@ -14,7 +14,7 @@
 ---
 
 ## 📝 Sobre
- O projeto **@Github** com o objetivo de facilicar a busca por usuário  no github. Ele é uma página responsiva onde você pode colocar no campo de pesquisa o user da pessoa que você quer encontrar ele faz a busca trazendo informações sobre o perfil.
+ O projeto **@Github** foi desenvolvido com o objetivo de facilicar a busca por usuário  no github. Ele é uma página responsiva onde você pode colocar no campo de pesquisa o user da pessoa que você quer encontrar ele faz a busca trazendo informações sobre o perfil.
 
 ---
 
